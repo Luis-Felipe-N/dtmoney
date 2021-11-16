@@ -7,11 +7,10 @@ export const Container = styled.div`
     margin-top: -10rem;
 
     div {
-        background-color: var(--background);
+        background-color: var(--white);
         color: var(--color-text-primary);
         border-radius: 5px;
         padding: 1.5rem 2rem;
-        box-shadow: 0 0 5px #c4c4c4;
 
         header {
             display: flex;
