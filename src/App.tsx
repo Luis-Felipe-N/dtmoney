@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { DashBoard } from './components/Dashboard';
+import { Header } from './components/Header';
 import { GlobalStyle } from './styles/global';
 
 const Title = styled.h1 `
@@ -8,9 +10,10 @@ const Title = styled.h1 `
 
 export function App() {
   return (
-    <div className="App">
-      <Title>olá mundo</Title>
+    <>
+      <Header />
+      <DashBoard />
       <GlobalStyle />
-    </div>
+    </>
   );
 }
